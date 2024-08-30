@@ -6,6 +6,8 @@ import Task06 from './Task06';
 import Task07 from './Task07';
 import DemoComponent from './DemoComponent';
 import RestaurantHome from '../pages/RestaurantHome';
+import PostPage from '../pages/PostPage';
+import DemoPage from '../pages/DemoPage';
 
 const Dashboard = () => {
   return (
@@ -19,7 +21,9 @@ const Dashboard = () => {
         {/* <Task06 /> */}
         {/* <Task07 /> */}
         {/* <DemoComponent /> */}
-        <RestaurantHome />
+        {/* <RestaurantHome /> */}
+        {/* <PostPage /> */}
+        <DemoPage />
       </div>
     </>
   );
